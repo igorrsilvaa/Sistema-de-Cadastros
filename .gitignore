@@ -1,2 +1,2 @@
-./dll32
-.fig
+dll32/
+*.fig
