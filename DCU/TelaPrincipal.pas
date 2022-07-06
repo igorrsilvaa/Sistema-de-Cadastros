@@ -26,9 +26,6 @@ type
     ContasaReceber1: TMenuItem;
     ContasaPagar1: TMenuItem;
     Clientes2: TMenuItem;
-    PnlButon: TPanel;
-    Label2: TLabel;
-    BtnCadastrar: TBitBtn;
     Label1: TLabel;
     BtnClientes: TBitBtn;
     BtnReceber: TBitBtn;
@@ -39,10 +36,12 @@ type
     BtnProdutos: TBitBtn;
     BtnBoletos: TBitBtn;
     BtnSair: TBitBtn;
-    BtnCadastrarContatos: TBitBtn;
-    BtnCadastrarprodutos: TBitBtn;
+    Label2: TLabel;
+    BtnCadastrar: TBitBtn;
     BtnCadastrarReceber: TBitBtn;
+    BtnCadastrarContatos: TBitBtn;
     BtnCadastrarPagar: TBitBtn;
+    BtnCadastrarprodutos: TBitBtn;
     BtnCadastrarBoletos: TBitBtn;
     procedure Clientes1Click(Sender: TObject);
     procedure BtnSairClick(Sender: TObject);
