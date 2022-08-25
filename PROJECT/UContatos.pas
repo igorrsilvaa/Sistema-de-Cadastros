@@ -46,7 +46,6 @@ type
     QContatosemail2: TWideStringField;
     QContatosinstagram: TWideStringField;
     QContatosfacebook: TWideStringField;
-    QContatostwitter: TWideStringField;
     QContatosobservacao: TWideStringField;
     QContatosfax: TWideStringField;
     QContatostelefone: TWideStringField;
@@ -106,8 +105,6 @@ begin
   QContatos.Append;
   QContatosid_contato.AsInteger := Lproximo;
   EdtNome.SetFocus;
-
-
 end;
 
 procedure TFrmContatos.BtnPesquisarClick(Sender: TObject);

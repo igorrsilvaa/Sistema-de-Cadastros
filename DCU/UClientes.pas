@@ -178,18 +178,20 @@ begin
   QClientes.Edit;
 end;
 
-//Botao cancelar
+//Mudar a cor do botao ao passar o cursor
 procedure TFrmClientes.BtnAlterarMouseLeave(Sender: TObject);
 begin
   BtnAlterar.Font.Color := clBlack;
 end;
 
+//Mudar a cor do botao ao passar o cursor
 procedure TFrmClientes.BtnAlterarMouseMove(Sender: TObject; Shift: TShiftState;
   X, Y: Integer);
 begin
   BtnAlterar.Font.Color := clRed;
 end;
 
+//funcao do botao cancelar
 procedure TFrmClientes.BtnCancelarClick(Sender: TObject);
 begin
   if MessageDlg('Cancelar registro?', mtInformation, [mbYes, mbNo],0) = mrYes then

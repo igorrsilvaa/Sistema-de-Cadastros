@@ -5,7 +5,7 @@ object FrmPesquisaContatos: TFrmPesquisaContatos
   Caption = 'T009 - Pesquisa de Contatos'
   ClientHeight = 810
   ClientWidth = 1229
-  Color = clBtnFace
+  Color = 15131624
   Constraints.MaxHeight = 849
   Constraints.MaxWidth = 1245
   Constraints.MinHeight = 849
@@ -328,7 +328,7 @@ object FrmPesquisaContatos: TFrmPesquisaContatos
     Width = 1229
     Height = 65
     Align = alTop
-    Color = 16777173
+    Color = 15131624
     ParentBackground = False
     TabOrder = 0
     object Label1: TLabel

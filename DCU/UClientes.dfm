@@ -5,7 +5,7 @@ object FrmClientes: TFrmClientes
   Caption = 'T002 - Cadastro de Clientes'
   ClientHeight = 708
   ClientWidth = 955
-  Color = 16777173
+  Color = 15131624
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
@@ -354,6 +354,10 @@ object FrmClientes: TFrmClientes
         Font.Name = 'Source Code Pro'
         Font.Style = [fsBold]
         ParentFont = False
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object Label6: TLabel
           Left = 0
           Top = 88
@@ -659,7 +663,7 @@ object FrmClientes: TFrmClientes
           Width = 480
           Height = 246
           Caption = 'Contatos'
-          Color = 16777173
+          Color = 15131624
           ParentBackground = False
           ParentColor = False
           TabOrder = 22
@@ -1275,7 +1279,7 @@ object FrmClientes: TFrmClientes
           BevelOuter = bvRaised
           BevelKind = bkFlat
           BorderStyle = bsNone
-          Color = 16777173
+          Color = 15131624
           DataField = 'observacao'
           DataSource = DsClientes
           Font.Charset = ANSI_CHARSET
@@ -1469,7 +1473,7 @@ object FrmClientes: TFrmClientes
     Height = 81
     Align = alTop
     BevelOuter = bvLowered
-    Color = 16777173
+    Color = 15131624
     ParentBackground = False
     TabOrder = 1
     object BtnSalvar: TBitBtn

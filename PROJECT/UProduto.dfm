@@ -5,7 +5,7 @@ object FrmProduto: TFrmProduto
   Caption = 'T004 - Cadastro de Produtos'
   ClientHeight = 726
   ClientWidth = 1006
-  Color = 16777173
+  Color = 15131624
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -324,7 +324,7 @@ object FrmProduto: TFrmProduto
     Width = 1006
     Height = 81
     Align = alTop
-    Color = 16777173
+    Color = 15131624
     ParentBackground = False
     TabOrder = 0
     object BtnIncluir: TBitBtn
@@ -648,7 +648,6 @@ object FrmProduto: TFrmProduto
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 1
-    ExplicitHeight = 709
     object Cadastros: TTabSheet
       Caption = 'Cadastros'
       Font.Charset = ANSI_CHARSET
@@ -657,8 +656,6 @@ object FrmProduto: TFrmProduto
       Font.Name = 'Source Code Pro'
       Font.Style = [fsBold]
       ParentFont = False
-      ExplicitLeft = 8
-      ExplicitHeight = 679
       object Label1: TLabel
         Left = 3
         Top = 9
@@ -1168,7 +1165,7 @@ object FrmProduto: TFrmProduto
     end
     object Label22: TLabel
       Left = 3
-      Top = 242
+      Top = 236
       Width = 68
       Height = 14
       Caption = 'Observa'#231#245'es'

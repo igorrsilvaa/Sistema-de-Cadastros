@@ -16,26 +16,20 @@ File_13=TSourceModule,'D:\DELPHI\Sistemas\Forms\U_Cadastro.pas',0,1,90,38,111,0,
 File_14=TSourceModule,'D:\DELPHI\Sistemas\Forms\U_Pesquisa.pas',0,1,1,72,11,0,0,,
 
 [Modules]
-Module0=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\TelaPrincipal.pas
-Module1=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UProduto.pas
-Module2=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\UClientes.pas
-Module3=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UPesquisaContatos.pas
-Module4=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UContatos.pas
-Module5=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UPesquisaClientes.pas
+Module0=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\UClientes.pas
+Module1=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\TelaPrincipal.pas
+Module2=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UContatos.pas
+Module3=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UPesquisaClientes.pas
+Module4=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UPesquisaContatos.pas
+Module5=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UProduto.pas
 Module6=default.htm
 Count=7
 EditWindowCount=1
 
-[D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\TelaPrincipal.pas]
-ModuleType=TSourceModule
-
-[D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UProduto.pas]
-ModuleType=TSourceModule
-
 [D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\UClientes.pas]
 ModuleType=TSourceModule
 
-[D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UPesquisaContatos.pas]
+[D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\TelaPrincipal.pas]
 ModuleType=TSourceModule
 
 [D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UContatos.pas]
@@ -44,12 +38,18 @@ ModuleType=TSourceModule
 [D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UPesquisaClientes.pas]
 ModuleType=TSourceModule
 
+[D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UPesquisaContatos.pas]
+ModuleType=TSourceModule
+
+[D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UProduto.pas]
+ModuleType=TSourceModule
+
 [default.htm]
 ModuleType=TURLModule
 
 [EditWindow0]
 ViewCount=7
-CurrentEditView=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\TelaPrincipal.pas
+CurrentEditView=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\UClientes.pas
 View0=0
 View1=1
 View2=2
@@ -95,9 +95,9 @@ WelcomePageURL=bds:/default.htm
 [View1]
 CustomEditViewType=TEditView
 Module=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\TelaPrincipal.pas
-CursorX=26
-CursorY=99
-TopLine=72
+CursorX=29
+CursorY=145
+TopLine=121
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -117,9 +117,9 @@ EditViewName=Borland.FormDesignerView
 [View3]
 CustomEditViewType=TEditView
 Module=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\PROJECT\UContatos.pas
-CursorX=1
-CursorY=103
-TopLine=86
+CursorX=20
+CursorY=107
+TopLine=89
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -139,13 +139,13 @@ EditViewName=Borland.FormDesignerView
 [View5]
 CustomEditViewType=TEditView
 Module=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\UClientes.pas
-CursorX=40
-CursorY=239
-TopLine=219
+CursorX=27
+CursorY=194
+TopLine=163
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=Borland.FormDesignerView
+EditViewName=D:\Projetos\Projetos em Delphi\SYMTER - Sistema de Cadastro\DCU\UClientes.pas
 
 [View6]
 CustomEditViewType=TEditView
@@ -256,7 +256,7 @@ Visible=0
 Docked=1
 State=0
 Left=0
-Top=1048
+Top=0
 Width=2771
 Height=935
 MaxLeft=-1
@@ -339,16 +339,11 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=4399
-TBDockHeight=7004
+TBDockHeight=7414
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
 SplitPos=162
-
-[PropInspDesignerSelection]
-ArrangeBy=Name
-SelectedItem=Caption,
-ExpandedItems=Anchors=0,Constraints=0,DataSource=0,Font=0,LiveBindings=1,"LiveBindings Designer=0",Margins=0,Options=0,BorderIcons=0,GlassFrame=0,HorzScrollBar=0,BevelEdges=0,Padding=0,StyleElements=1,Touch=0,Font.Style=0,"LiveBindings Designer.Element Layers=0",Title=1,Title.Font=0
 
 [ClassBrowserTool]
 PercentageSizes=1
@@ -356,8 +351,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-182
-Top=-101
+Left=-218
+Top=-137
 Width=1849
 Height=3139
 MaxLeft=-1
@@ -432,8 +427,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-1603
-Top=-26
+Left=-8
+Top=-31
 Width=2844
 Height=6202
 MaxLeft=-1
@@ -451,8 +446,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-1712
-Top=271
+Left=-1527
+Top=-137
 Width=276
 Height=363
 MaxLeft=-1
@@ -575,11 +570,11 @@ State=0
 Left=0
 Top=0
 Width=2339
-Height=1002
+Height=1231
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2339
-ClientHeight=1002
+ClientHeight=1231
 TBDockHeight=2319
 LRDockWidth=2823
 Dockable=1
@@ -656,8 +651,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=370
-Top=835
+Left=0
+Top=0
 Width=2854
 Height=3206
 MaxLeft=-1
@@ -826,7 +821,7 @@ Visible=0
 Docked=1
 State=0
 Left=0
-Top=18
+Top=0
 Width=3823
 Height=1832
 MaxLeft=-1
@@ -849,8 +844,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=1712
-Top=83
+Left=0
+Top=0
 Width=2000
 Height=7414
 MaxLeft=-1
@@ -881,7 +876,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=4208
-TBDockHeight=7004
+TBDockHeight=7414
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0

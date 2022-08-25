@@ -4,7 +4,7 @@ object FrmContatos: TFrmContatos
   Caption = 'T005 - Cadastro de Contatos'
   ClientHeight = 407
   ClientWidth = 541
-  Color = clBtnFace
+  Color = 15131624
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -324,7 +324,7 @@ object FrmContatos: TFrmContatos
     Height = 407
     Align = alClient
     BevelOuter = bvLowered
-    Color = 16777173
+    Color = 15131624
     ParentBackground = False
     TabOrder = 0
     object Label1: TLabel
@@ -517,6 +517,8 @@ object FrmContatos: TFrmContatos
       Height = 63
       Align = alTop
       BevelOuter = bvLowered
+      Color = 15131624
+      ParentBackground = False
       TabOrder = 8
       object BtnIncluir: TBitBtn
         Left = 17
@@ -853,11 +855,6 @@ object FrmContatos: TFrmContatos
     object QContatosfacebook: TWideStringField
       FieldName = 'facebook'
       Origin = 'facebook'
-      Size = 100
-    end
-    object QContatostwitter: TWideStringField
-      FieldName = 'twitter'
-      Origin = 'twitter'
       Size = 100
     end
     object QContatosobservacao: TWideStringField
